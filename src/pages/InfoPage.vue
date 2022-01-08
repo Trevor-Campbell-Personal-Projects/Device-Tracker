@@ -272,7 +272,7 @@ import { defineComponent } from 'vue'
 import InfoBlock from '@/components/InfoBlock.vue'
 
 export default defineComponent({
-  name: 'Info-Page',
+  name: 'InfoPage',
   components: {
     InfoBlock,
   },

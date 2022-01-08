@@ -1,21 +1,21 @@
 export default [
   {
-    component: () => import('@/pages/Info-Page.vue'),
+    component: () => import('@/pages/InfoPage.vue'),
     name: 'home',
     path: '/',
   },
   {
-    component: () => import('@/pages/Info-Page.vue'),
+    component: () => import('@/pages/InfoPage.vue'),
     name: 'info',
     path: '/info',
   },
   {
-    component: () => import('@/pages/Resources-Page.vue'),
+    component: () => import('@/pages/ResourcesPage.vue'),
     name: 'resources',
     path: '/resources',
   },
   {
-    component: () => import('@/pages/Landing-Page.vue'),
+    component: () => import('@/pages/LandingPage.vue'),
     name: 'landing',
     path: '/landing',
   },
