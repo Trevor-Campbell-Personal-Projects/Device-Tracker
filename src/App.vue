@@ -38,6 +38,8 @@ export default defineComponent({
 </script>
 
 <style>
+
+/* General antialiasing across entire app */
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

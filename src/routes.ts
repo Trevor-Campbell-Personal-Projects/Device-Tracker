@@ -14,4 +14,9 @@ export default [
       name: 'resources',
       path: '/resources',
     },
+    {
+      component: () => import('@/pages/LandingPage.vue'),
+      name: 'landing',
+      path: '/landing',
+    },
   ]
