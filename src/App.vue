@@ -1,9 +1,8 @@
 <template>
-<div class="bg-gray-100 min-w-full min-h-screen">
-  <Header></Header>
-  <router-view>
-  </router-view>
-</div>
+  <div class="bg-gray-100 min-w-full min-h-screen">
+    <Header></Header>
+    <router-view> </router-view>
+  </div>
 </template>
 
 <script lang="ts">
@@ -16,7 +15,7 @@ export default defineComponent({
   name: 'App',
 
   components: {
-    Header
+    Header,
   },
 
   setup() {
@@ -38,7 +37,6 @@ export default defineComponent({
 </script>
 
 <style>
-
 /* General antialiasing across entire app */
 #app {
   -webkit-font-smoothing: antialiased;

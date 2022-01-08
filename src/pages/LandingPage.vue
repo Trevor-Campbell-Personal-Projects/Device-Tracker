@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="hidden md:block md:ml-10 md:space-x-8">
-              <a v-for="item in navigation" v-bind:key="item.id" class="relative text-lg font-medium text-slate-100 hover:text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 hover:bg-slate-900 hover:shadow-inner hover:shadow-black/50">
+              <a v-for="item in navigation" :key="item.id" class="relative text-lg font-medium text-slate-100 hover:text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 hover:bg-slate-900 hover:shadow-inner hover:shadow-black/50">
                 <router-link :to="{path:item.router}">{{item.names}}</router-link>
               </a>
             </div>
@@ -51,7 +51,7 @@
                 </div>
               </div>
               <div class="px-2 pt-2 pb-3 space-y-1">
-                <a v-for="item in navigation" v-bind:key="item.id" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+                <a v-for="item in navigation" :key="item.id" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
                   <router-link :to="{path:item.router}">{{item.names}}</router-link>
                 </a>
               </div>
