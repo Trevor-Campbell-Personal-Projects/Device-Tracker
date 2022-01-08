@@ -9,7 +9,7 @@
 import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
 
-import Header from '@/components/Header.vue'
+import Header from '@/components/App-Header.vue'
 
 export default defineComponent({
   name: 'App',
