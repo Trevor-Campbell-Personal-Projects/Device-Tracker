@@ -76,8 +76,8 @@
                 </svg>
               </a>
               <h1 class="mt-4 text-4xl font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:font-bold lg:text-5xl xl:text-6xl">
-                <span class="md:block -mb-1 pb-1 font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Get up to $1,000</span>
-                <span class="md:block -mb-1 pb-1 text-transparent bg-clip-text bg-gradient-to-t from-slate-400 lg:from-slate-300 via-slate-50 to-white">to support your Moonlight Gig</span>
+                <span class="md:block -mt-1.5 pt-1.5 -mb-1.5 pb-1.5 font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Get up to $1,000</span>
+                <span class="md:block -mt-1.5 pt-1.5 -mb-1.5 pb-1.5 text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white">to support your Moonlight Gig</span>
               </h1>
               <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl selection:bg-yellow-200/20 selection:text-yellow-300">
                 Are you a Creator, Hacker, Artist, Builder, Musician, Photographer, Designer, Craftsman, Filmmaker, or Chef? Working on something cool or learning new skills?
@@ -104,7 +104,7 @@
 
           <!-- Video Block -->
           <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-            <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+            <div class="relative mx-auto w-full rounded-lg shadow-xl shadow-black/30 lg:max-w-md">
               <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-200">
                 <span class="sr-only">Watch our video to learn more</span>
                 <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
@@ -121,6 +121,17 @@
         </div>
       </main>
     </div>
+
+    <LandingSectionIntro class="py-12"></LandingSectionIntro>
+
+    <LandingSectionHowItWorks class="py-12"></LandingSectionHowItWorks>
+
+    <LandingSectionWhoApply class="py-12"></LandingSectionWhoApply>
+
+    <LandingSectionStats class="py-12"></LandingSectionStats>
+
+    <LandingSectionFAQ class="py-12"></LandingSectionFAQ>
+
   </div>
 </template>
 
@@ -131,14 +142,23 @@ import MoonlightLogo from '@/assets/logos/MoonlightLogo.vue'
 import CoinbaseLogo from '@/assets/logos/CoinbaseLogo.vue'
 import NetflixLogo from '@/assets/logos/NetflixLogo.vue'
 import OnlyfansLogo from '@/assets/logos/OnlyfansLogo.vue'
+import LandingSectionIntro from './LandingSectionIntro.vue'
+import LandingSectionHowItWorks from './LandingSectionHowItWorks.vue'
+
+import { defineComponent } from 'vue'
+import LandingSectionWhoApply from './LandingSectionWhoApply.vue'
+import LandingSectionStats from './LandingSectionStats.vue'
+import LandingSectionFAQ from './LandingSectionFAQ.vue'
+
 
 const navigation = [
   {names: 'Info Page', router: '/info', id: 1},
-  {names: 'Resources Page', router: '/resources', id: 2},
-  {names: 'Landing Page', router: '/landing', id: 3},
+  {names: 'Landing Page', router: '/landing', id: 2},
+  {names: 'About Us Page', router: '/about-us', id: 3}
 ]
 
-export default {
+export default defineComponent({
+  name: 'LandingPage',
   components: {
     Popover,
     PopoverButton,
@@ -148,12 +168,21 @@ export default {
     MoonlightLogo,
     CoinbaseLogo,
     NetflixLogo,
-    OnlyfansLogo
+    OnlyfansLogo,
+    LandingSectionIntro,
+    LandingSectionHowItWorks,
+    LandingSectionWhoApply,
+    LandingSectionStats,
+    LandingSectionFAQ
 },
   setup() {
     return {
       navigation,
     }
   },
-}
+})
 </script>
+
+<style>
+/* None, since using Tailwindcss */
+</style>

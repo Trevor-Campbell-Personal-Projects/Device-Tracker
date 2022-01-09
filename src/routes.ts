@@ -19,4 +19,9 @@ export default [
     name: 'landing',
     path: '/landing',
   },
+  {
+    component: () => import('@/pages/AboutUsPage.vue'),
+    name: 'about-us',
+    path: '/about-us',
+  },
 ]
