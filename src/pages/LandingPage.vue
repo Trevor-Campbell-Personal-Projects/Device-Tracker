@@ -122,13 +122,11 @@
       </main>
     </div>
 
-    <LandingSectionIntro class="py-12"></LandingSectionIntro>
-
     <LandingSectionHowItWorks class="py-12"></LandingSectionHowItWorks>
 
     <LandingSectionWhoApply class="py-12"></LandingSectionWhoApply>
 
-    <LandingSectionStats class="py-12"></LandingSectionStats>
+    <ApplyCTASection class="py-12"></ApplyCTASection>
 
     <LandingSectionFAQ class="py-12"></LandingSectionFAQ>
 
@@ -142,13 +140,12 @@ import MoonlightLogo from '@/assets/logos/MoonlightLogo.vue'
 import CoinbaseLogo from '@/assets/logos/CoinbaseLogo.vue'
 import NetflixLogo from '@/assets/logos/NetflixLogo.vue'
 import OnlyfansLogo from '@/assets/logos/OnlyfansLogo.vue'
-import LandingSectionIntro from './LandingSectionIntro.vue'
 import LandingSectionHowItWorks from './LandingSectionHowItWorks.vue'
 
 import { defineComponent } from 'vue'
 import LandingSectionWhoApply from './LandingSectionWhoApply.vue'
-import LandingSectionStats from './LandingSectionStats.vue'
 import LandingSectionFAQ from './LandingSectionFAQ.vue'
+import ApplyCTASection from './ApplyCTASection.vue'
 
 
 const navigation = [
@@ -169,11 +166,10 @@ export default defineComponent({
     CoinbaseLogo,
     NetflixLogo,
     OnlyfansLogo,
-    LandingSectionIntro,
     LandingSectionHowItWorks,
     LandingSectionWhoApply,
-    LandingSectionStats,
-    LandingSectionFAQ
+    LandingSectionFAQ,
+    ApplyCTASection
 },
   setup() {
     return {

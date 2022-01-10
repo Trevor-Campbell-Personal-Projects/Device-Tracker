@@ -17,7 +17,7 @@
         <dt class="order-2 mt-2 text-lg leading-6 font-medium text-slate-300">
           Grant Recipients
         </dt>
-        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 lg:from-slate-300 via-slate-50 to-white">
+        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white">
           500
         </dd>
       </div>
@@ -26,7 +26,7 @@
         <dt class="order-2 mt-2 text-lg leading-6 font-medium text-slate-300">
           In Grants Given
         </dt>
-        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 lg:from-slate-300 via-slate-50 to-white">
+        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white">
           $200k
         </dd>
       </div>
@@ -35,7 +35,7 @@
         <dt class="order-2 mt-2 text-lg leading-6 font-medium text-slate-300">
           Applications Received
         </dt>
-        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 lg:from-slate-300 via-slate-50 to-white">
+        <dd class="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white">
           6,000
         </dd>
       </div>
