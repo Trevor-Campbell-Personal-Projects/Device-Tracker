@@ -1,32 +1,46 @@
 <template>
-  <h1>The HOME template -{{ count }}-</h1>
-  <img alt="Vue logo" src="@/assets/logo.png" @click="addTwo" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+
+  <MainHeader class="relative pt-6 pb-16 sm:pb-24 lg:pb-32"></MainHeader>
+
+  <LandingSectionHero class="pb-12"></LandingSectionHero>
+
+  <LandingSectionHowItWorks class="py-24"></LandingSectionHowItWorks>
+
+  <LandingSectionWhoApply class="py-24"></LandingSectionWhoApply>
+
+  <ApplyCTASection class="py-24"></ApplyCTASection>
+
+  <LandingSectionFAQ class="py-24"></LandingSectionFAQ>
+
+  <MainFooter class="pt-32"></MainFooter>
+
 </template>
 
 <script lang="ts">
-import { computed, defineComponent } from 'vue'
+import MainHeader from '@/components/MainHeader.vue'
+import LandingSectionHero from '@/components/LandingSectionHero.vue'
+import LandingSectionHowItWorks from '@/components/LandingSectionHowItWorks.vue'
+import LandingSectionWhoApply from '@/components/LandingSectionWhoApply.vue'
+import ApplyCTASection from '@/components/ApplyCTASection.vue'
+import LandingSectionFAQ from '@/components/LandingSectionFAQ.vue'
+import MainFooter from '@/components/MainFooter.vue'
 
-import HelloWorld from '@/components/HelloWorld.vue'
-import { store } from '@/store'
+import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'HomePage',
   components: {
-    HelloWorld,
-  },
-  setup() {
-    const addTwo = () => store.commit('add', 2)
-    const count = computed(() => store.state.count)
-
-    return {
-      addTwo,
-      count,
-    }
+    LandingSectionHowItWorks,
+    LandingSectionWhoApply,
+    LandingSectionFAQ,
+    ApplyCTASection,
+    MainHeader,
+    MainFooter,
+    LandingSectionHero
   },
 })
 </script>
 
 <style>
-/*None, since using TailwindCSS */
+/* None, since using Tailwindcss */
 </style>

@@ -1,27 +1,22 @@
 export default [
   {
-    component: () => import('@/pages/InfoPage.vue'),
+    component: () => import('@/pages/HomePage.vue'),
     name: 'home',
     path: '/',
-  },
-  {
-    component: () => import('@/pages/InfoPage.vue'),
-    name: 'info',
-    path: '/info',
-  },
-  {
-    component: () => import('@/pages/ResourcesPage.vue'),
-    name: 'resources',
-    path: '/resources',
-  },
-  {
-    component: () => import('@/pages/LandingPage.vue'),
-    name: 'landing',
-    path: '/landing',
   },
   {
     component: () => import('@/pages/AboutUsPage.vue'),
     name: 'about-us',
     path: '/about-us',
   },
+  {
+    component: () => import('@/pages/GrantRecipientsPage.vue'),
+    name: 'our-shooting-stars',
+    path: '/our-shooting-stars',
+  },
+  {
+    component: () => import('@/pages/404Page.vue'),
+    name: '404',
+    path: "/:catchAll(.*)",
+  }
 ]

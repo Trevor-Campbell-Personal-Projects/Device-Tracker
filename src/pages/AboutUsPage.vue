@@ -1,24 +1,38 @@
 <template>
-  <div class="relative bg-gradient-to-t from-black via-slate-900 to-slate-800 overflow-hidden">
-    <LandingSectionIntro class="py-12"></LandingSectionIntro>
-    <LandingSectionStats class="py-12"></LandingSectionStats>
-    <DonateCTASection class="py-12"></DonateCTASection>
-  </div>
+
+  <MainHeader class="relative pt-6 pb-16 sm:pb-24 lg:pb-32"></MainHeader>
+
+  <LandingSectionIntro class="pb-24"></LandingSectionIntro>
+  
+  <LandingSectionStats class="py-24"></LandingSectionStats>
+  
+  <AboutUsTeamSection class="py-24"></AboutUsTeamSection>
+  
+  <DonateCTASection class="py-24"></DonateCTASection>
+  
+  <MainFooter class="pt-32"></MainFooter>
+  
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import LandingSectionIntro from "./LandingSectionIntro.vue";
-import LandingSectionStats from "./LandingSectionStats.vue";
-import DonateCTASection from "./DonateCTASection.vue";
+import LandingSectionIntro from "@/components/LandingSectionIntro.vue";
+import LandingSectionStats from "@/components/LandingSectionStats.vue";
+import DonateCTASection from "@/components/DonateCTASection.vue";
+import AboutUsTeamSection from "@/components/AboutUsTeamSection.vue";
+import MainHeader from "@/components/MainHeader.vue";
+import MainFooter from "@/components/MainFooter.vue";
 
 export default defineComponent({
   name: 'AboutUsPage',
   components: {
     LandingSectionIntro,
     LandingSectionStats,
-    DonateCTASection
-}
+    DonateCTASection,
+    AboutUsTeamSection,
+    MainHeader,
+    MainFooter,
+  }
 })
 
 </script>

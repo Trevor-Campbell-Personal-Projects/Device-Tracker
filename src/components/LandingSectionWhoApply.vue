@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="ml-4 max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
-    <div>
+  <div class="ml-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:mx-20">
+    <div class="">
       <h2 class="text-sm text-yellow-400 font-semibold tracking-wide uppercase lg:text-base">Calling All Creatives</h2>
       <p class="mt-2 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Who Should Apply?</p>
       <p class="mt-4 text-lg text-slate-100">Our goal is to support as many creatives as possible. If you're up to something rad, you should apply!</p>

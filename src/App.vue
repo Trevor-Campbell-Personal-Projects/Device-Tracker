@@ -1,6 +1,5 @@
 <template>
-  <div class="bg-gray-100 min-w-full min-h-screen">
-    <Header></Header>
+  <div class="min-w-full min-h-screen bg-gradient-to-t from-black via-slate-900 to-slate-800 overflow-hidden">
     <router-view> </router-view>
   </div>
 </template>
@@ -9,13 +8,10 @@
 import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
 
-import Header from '@/components/App-Header.vue'
-
 export default defineComponent({
   name: 'App',
 
   components: {
-    Header,
   },
 
   setup() {
