@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="ml-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:mx-20">
+  <div class="max-w-7xl mx-auto px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:mx-20">
     <div class="">
       <h2 class="text-sm text-yellow-400 font-semibold tracking-wide uppercase lg:text-base">Calling All Creatives</h2>
       <p class="mt-2 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Who Should Apply?</p>
@@ -175,7 +175,7 @@
             <svg class="absolute h-6 w-6 text-yellow-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
             </svg>
-            <p class="ml-9 text-lg leading-6 font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Creatives of all kinds!</p>
+            <p class="ml-9 text-lg leading-6 font-laila font-semibold text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Creatives of all kinds!</p>
           </dt>
         </div>
 

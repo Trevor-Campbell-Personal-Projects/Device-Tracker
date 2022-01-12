@@ -8,7 +8,7 @@
             <p class="ml-14 leading-[2] sm:leading-[2.5] font-bold font-laila text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Moonlight Grant</p>
           </a>
           <div class="-mr-2 flex items-center md:hidden">
-            <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <PopoverButton class="bg-slate-600 rounded-md p-2 inline-flex items-center justify-center text-slate-100 hover:text-slate-800 hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-200">
               <span class="sr-only">Open main menu</span>
               <MenuIcon class="h-6 w-6" aria-hidden="true" />
             </PopoverButton>
@@ -34,25 +34,28 @@
 
     <transition enter-active-class="duration-150 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
       <PopoverPanel focus class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-        <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+        <div class="rounded-lg shadow-md bg-black ring-2 ring-slate-100 overflow-hidden">
           <div class="px-5 pt-4 flex items-center justify-between">
             <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
+              <MoonlightLogo1 class="h-8 w-auto text-yellow-400"></MoonlightLogo1>
             </div>
             <div class="-mr-2">
-              <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <PopoverButton class="bg-slate-600 rounded-md p-2 inline-flex items-center justify-center text-slate-100 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-200">
                 <span class="sr-only">Close main menu</span>
                 <XIcon class="h-6 w-6" aria-hidden="true" />
               </PopoverButton>
             </div>
           </div>
           <div class="px-2 pt-2 pb-3 space-y-1">
-            <a v-for="item in navigation" :key="item.id" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+            <a v-for="item in navigation" :key="item.id" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-100 hover:text-slate-100 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-200">
               <router-link :to="{path:item.router}">{{item.names}}</router-link>
             </a>
           </div>
-          <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-            Log in
+          <a href="#" class="block w-full px-5 py-3 text-center font-semibold text-slate-900 bg-gradient-to-tr from-slate-400 to-slate-100 hover:from-yellow-100 hover:to-yellow-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yellow-200">
+            Apply Now
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 ml-2 -mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
           </a>
         </div>
       </PopoverPanel>
@@ -64,12 +67,13 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 import MoonlightLogo from '@/assets/logos/MoonlightLogo.vue'
+import MoonlightLogo1 from '@/assets/logos/MoonlightLogo.vue'
 
 import { defineComponent } from 'vue'
 
 const navigation = [
   {names: 'Home', router: '/', id: 1},
-  {names: 'About Us Page', router: '/about-us', id: 2},
+  {names: 'About Us', router: '/about-us', id: 2},
   {names: 'Our Shooting Stars', router: '/our-shooting-stars', id: 3},
 ]
 
@@ -82,7 +86,8 @@ export default defineComponent ({
     MenuIcon,
     XIcon,
     MoonlightLogo,
-  },
+    MoonlightLogo1
+},
   setup() {
     return {
       navigation,

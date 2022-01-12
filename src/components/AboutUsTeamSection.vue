@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-4 max-w-5xl sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-5xl px-8">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl sm:text-4xl mt-2 pb-0.5 font-bold font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">
         The Moonlight Team
@@ -9,7 +9,7 @@
       <li v-for="person in people" :key="person.name" class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-            <img class="object-cover shadow-lg rounded-lg" :src="person.imageUrl" alt="" />
+            <img class="object-cover shadow-lg rounded-lg sepia brightness-75" :src="person.imageUrl" alt="" />
           </div>
           <div class="sm:col-span-2">
             <div class="space-y-4">
@@ -55,7 +55,7 @@ const people = [
     name: 'Trevor Campbell',
     role: 'Late-Night XXX',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      '/src/assets/images/trevor-moonlight-team-pic.jpg',
     bio:
       'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',

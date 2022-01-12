@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative px-8">
     <div class="hidden absolute top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true" />
     <div class="max-w-7xl mx-auto bg-slate-900 lg:bg-transparent lg:px-8">
       <div class="lg:grid lg:grid-cols-12">

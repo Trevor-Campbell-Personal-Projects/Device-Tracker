@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+  <div class="max-w-xl mx-auto lg:max-w-7xl px-8">
     <div class="max-w-3xl mx-auto">
       <h2 class="font-laila mt-2 pb-1.5 block text-4xl text-center leading-8 font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100 sm:text-5xl">How Does It Work?</h2>
     </div>
@@ -15,7 +15,7 @@
           <p class="mt-5 pb-0.5 text-2xl sm:text-2xl font-laila font-semibold leading-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-slate-200 to-white group-hover:from-yellow-400 group-hover:to-yellow-100 transition-all ease-in-out duration-300">Apply for a Grant</p>
         </dt>
         <dd class="mt-2 text-base text-gray-400 group-hover:text-slate-100 transition-all ease-in-out duration-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+          Tell us a bit about what you're working on, and how you would use your Moonlight Grant to push the boundaries of your creativity. Then submit your application for our team to review!
         </dd>
       </div>
 
@@ -31,7 +31,7 @@
           <p class="mt-5 pb-0.5 text-2xl sm:text-2xl font-laila font-semibold leading-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-slate-200 to-white group-hover:from-yellow-400 group-hover:to-yellow-100 transition-all ease-in-out duration-300">Receive your Grant Funds</p>
         </dt>
         <dd class="mt-2 text-base text-gray-400 group-hover:text-slate-100 transition-all ease-in-out duration-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+          If you're selected for a Moonlight Grant, our team will contact you to congratulate you! We'll make sure you can receive your grant funds in a way that is fast, easy, and safe for you to use.
         </dd>
       </div>
 
@@ -46,7 +46,7 @@
           <p class="mt-5 pb-0.5 text-2xl sm:text-2xl font-laila font-semibold leading-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-slate-200 to-white group-hover:from-yellow-400 group-hover:to-yellow-100 transition-all ease-in-out duration-300">Create Something Amazing!</p>
         </dt>
         <dd class="mt-2 text-base text-gray-400 group-hover:text-slate-100 transition-all ease-in-out duration-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+          Now that you're able to get the supplies, tools, and courses you need to take things to the next level, it's time to get creative! We can't wait to see what you'll create!
         </dd>
       </div>
       

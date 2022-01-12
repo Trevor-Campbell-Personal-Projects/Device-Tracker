@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-2xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+  <div class="max-w-2xl mx-auto text-center px-8">
     <h2 class="text-sm text-yellow-400 font-semibold tracking-wide uppercase lg:text-base">Ready to create something amazing?</h2>
     <h2 class="text-3xl sm:text-4xl mt-2 pb-0.5 font-bold font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">
       Submit your application today!

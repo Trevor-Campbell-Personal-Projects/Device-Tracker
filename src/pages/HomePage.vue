@@ -2,9 +2,11 @@
 
   <MainHeader class="relative pt-6 pb-16 sm:pb-24 lg:pb-32"></MainHeader>
 
-  <LandingSectionHero class="pb-12"></LandingSectionHero>
+  <LandingSectionHero class="pb-24"></LandingSectionHero>
 
   <LandingSectionHowItWorks class="py-24"></LandingSectionHowItWorks>
+
+  <LandingSectionWhatIsGrant class="py-24"></LandingSectionWhatIsGrant>
 
   <LandingSectionWhoApply class="py-24"></LandingSectionWhoApply>
 
@@ -26,6 +28,7 @@ import LandingSectionFAQ from '@/components/LandingSectionFAQ.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
 import { defineComponent } from 'vue'
+import LandingSectionWhatIsGrant from '@/components/LandingSectionWhatIsGrant.vue'
 
 export default defineComponent({
   name: 'HomePage',
@@ -36,8 +39,9 @@ export default defineComponent({
     ApplyCTASection,
     MainHeader,
     MainFooter,
-    LandingSectionHero
-  },
+    LandingSectionHero,
+    LandingSectionWhatIsGrant
+},
 })
 </script>
 
