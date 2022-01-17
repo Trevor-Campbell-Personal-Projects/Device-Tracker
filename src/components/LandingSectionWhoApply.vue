@@ -1,10 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="max-w-7xl mx-auto px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:mx-20">
+  <div class="max-w-7xl mx-auto px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:mx-20 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="">
       <h2 class="text-sm text-yellow-400 font-semibold tracking-wide uppercase lg:text-base">Calling All Creatives</h2>
-      <p class="mt-2 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Who Should Apply?</p>
+      <p class="mt-2 -mb-1.5 pb-1.5 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Who Should Apply?</p>
       <p class="mt-4 text-lg text-slate-100">Our goal is to support as many creatives as possible. If you're up to something rad, you should apply!</p>
+      <p class="mt-4 text-lg text-slate-100"><strong class="text-yellow-200 underline underline-offset-4 decoration-2 decoration-wavy decoration-yellow-200">Open to all countries!</strong></p>
     </div>
     <div class="mt-12 lg:mt-0 lg:col-span-2">
       <dl class="space-y-6 sm:space-y-0 sm:grid sm:grid-cols-3 sm:grid-rows-5 sm:grid-flow-col sm:gap-x-6 sm:gap-y-6 lg:gap-x-8 text-slate-100">

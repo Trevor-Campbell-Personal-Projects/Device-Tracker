@@ -16,7 +16,7 @@ export default defineComponent({
 
   setup() {
     useHead({
-      title: 'Default title',
+      title: 'Moonlight Grant',
       meta: [
         {
           name: 'description',

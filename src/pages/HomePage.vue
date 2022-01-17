@@ -2,17 +2,17 @@
 
   <MainHeader class="relative pt-6 pb-16 sm:pb-24 lg:pb-32"></MainHeader>
 
-  <LandingSectionHero class="pb-24"></LandingSectionHero>
+  <LandingSectionHero class="pb-32"></LandingSectionHero>
 
-  <LandingSectionHowItWorks class="py-24"></LandingSectionHowItWorks>
+  <LandingSectionHowItWorks class="py-28"></LandingSectionHowItWorks>
 
-  <LandingSectionWhatIsGrant class="py-24"></LandingSectionWhatIsGrant>
+  <LandingSectionWhatIsGrant class="py-28"></LandingSectionWhatIsGrant>
 
-  <LandingSectionWhoApply class="py-24"></LandingSectionWhoApply>
+  <LandingSectionWhoApply class="py-28"></LandingSectionWhoApply>
 
-  <ApplyCTASection class="py-24"></ApplyCTASection>
+  <ApplyCTASection class="py-28"></ApplyCTASection>
 
-  <LandingSectionFAQ class="py-24"></LandingSectionFAQ>
+  <LandingSectionFAQ class="py-28"></LandingSectionFAQ>
 
   <MainFooter class="pt-32"></MainFooter>
 

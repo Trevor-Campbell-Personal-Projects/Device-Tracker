@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="max-w-7xl mx-auto px-8">
+  <div class="max-w-7xl mx-auto px-8 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="max-w-3xl mx-auto divide-y-4 divide-slate-800">
-      <h2 class="text-center mt-2 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">
+      <h2 class="text-center mt-2 -mb-1.5 pb-1.5 text-3xl sm:text-4xl font-laila font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">
         Frequently Asked Questions
       </h2>
       <dl class="mt-6 space-y-6 divide-y-2 divide-slate-900">
@@ -47,12 +47,12 @@ const faqs = [
   {
     question: "Who should apply for a Moonlight Grant?",
     answer:
-      "Moonlight Grants are intended for XXX. If you're a Creator, Hacker, Artist, Builder, Musician, Designer, Craftsman, Filmmaker, Chef, etc. you should apply! If you're not quite sure if you qualify, you should apply anyways! We love to support creators, creatives, and those learnign new all kinds of new skills.",
+      "Moonlight Grants are intended for any and all creatives and innovators. If you're a Creator, Hacker, Artist, Builder, Musician, Designer, Craftsman, Filmmaker, Chef, etc – you should apply! Not quite sure you qualify? You should apply anyways! We love to support those pushing the envelope and learning all kinds of new skills.",
   },
   {
     question: "How much $$$ can I get?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Most Moonlight Grants are awards of $200 – $1,000 USD. Amounts awareded to grant recipients vary based on the assesed need of each application duirng the review process.",
   },
   {
     question: "Are there any strings attached if I receive a grant?",
@@ -62,12 +62,12 @@ const faqs = [
   {
     question: "What if I'm not selected for a grant?",
     answer:
-      "We're sorry that you weren't selected this time around ... but please do apply for the next Moonlight Grant batch when enrollment re-opens!",
+      "Regardless of the outcome, our team will contact you with the decision of your application. If you are not selected, we encourage you to apply for the next batch of Moonlight Grants when enrollment re-opens!",
   },
   {
     question: "What can I use my grant money for?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Moonlight Grant awards can be used toward anything that will help you reach your project goals stated in your application. But we do require that grant money be used for those purposes.",
   },
   {
     question: "How can I receive my grant money if I'm selected?",

@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <footer class="mb-12">
+  <footer class="mb-12 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="max-w-7xl mx-auto px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
@@ -27,9 +27,10 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   main: [
-    { name: 'Home', router: '/' },
+    { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about-us' },
-    { name: 'Our Shooting Stars', href: '/our-shooting-stars' },
+    { name: 'Apply', href: 'https://tripetto.app/run/K8OSCFZU4C' },
+    //{ name: 'Our Shooting Stars', href: '/our-shooting-stars' },
   ],
   social: [
     {

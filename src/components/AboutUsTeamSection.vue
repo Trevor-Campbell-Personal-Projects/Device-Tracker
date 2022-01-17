@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-5xl px-8">
+  <div class="mx-auto max-w-5xl px-8 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl sm:text-4xl mt-2 pb-0.5 font-bold font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">
         The Moonlight Team
@@ -9,13 +9,13 @@
       <li v-for="person in people" :key="person.name" class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-            <img class="object-cover shadow-lg rounded-lg sepia brightness-75" :src="person.imageUrl" alt="" />
+            <img class="object-cover shadow-lg rounded-lg sepia brightness-75 hover:filter-none" :src="person.imageUrl" alt="" />
           </div>
           <div class="sm:col-span-2">
             <div class="space-y-4">
               <div class="text-lg leading-6 font-medium space-y-1 text-yellow-200">
                 <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white">{{ person.name }}</h3>
-                <p class="text-yellow-200">{{ person.role }}</p>
+                <p class="text-yellow-200/75">{{ person.role }}</p>
               </div>
               <div class="text-lg">
                 <p class="text-slate-200">{{ person.bio }}</p>
@@ -53,7 +53,7 @@ import { defineComponent } from "vue"
 const people = [
   {
     name: 'Trevor Campbell',
-    role: 'Late-Night XXX',
+    role: 'Money Daddy',
     imageUrl:
       '/src/assets/images/trevor-moonlight-team-pic.jpg',
     bio:

@@ -1,9 +1,9 @@
 <template>
-  <div class="max-w-xl mx-auto lg:max-w-7xl px-8">
+  <div class="max-w-xl mx-auto lg:max-w-7xl px-8 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="max-w-3xl mx-auto">
       <h2 class="font-laila mt-2 pb-1.5 block text-4xl text-center leading-8 font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100 sm:text-5xl">How Does It Work?</h2>
     </div>
-    <dl class="mt-12 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+    <dl class="mt-8 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
       <div class="group p-4 hover:bg-black/40 hover:shadow-inner hover:shadow-black rounded-lg transition-all ease-in-out duration-300">
         <dt>
           <div class="flex items-center justify-center h-12 w-12 rounded-md bg-slate-900 text-slate-300 shadow-inner shadow-black/50 group-hover:shadow-none group-hover:bg-none group-hover:text-yellow-400 group-hover:bg-yellow-200/10 transition-all ease-in-out duration-300">

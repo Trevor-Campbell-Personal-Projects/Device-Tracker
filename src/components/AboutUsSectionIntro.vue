@@ -1,5 +1,5 @@
 <template>
-  <div class="relative px-8">
+  <div class="relative px-8 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="text-lg max-w-prose mx-auto">
       <h1>
         <span class="block text-sm text-center text-yellow-400 font-semibold tracking-wide uppercase lg:text-base">Introducing</span>
@@ -13,6 +13,18 @@
         <img class="rounded-lg" src="https://images.unsplash.com/photo-1612534526511-dd27833d6e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="1310" height="873">
         <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
       </figure>
+      <!-- <figure class="w-3/4 mx-auto">
+        <img class="rounded-lg" src="https://images.unsplash.com/photo-1521999693742-4717d76f97cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="" width="1310" height="873">
+        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+      </figure> -->
+      <!-- <figure class="w-3/4 mx-auto">
+        <img class="rounded-lg" src="https://images.unsplash.com/photo-1518578315474-bc9ce7151ce4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="1310" height="873">
+        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+      </figure> -->
+      <!-- <figure class="w-3/4 mx-auto">
+        <img class="rounded-lg" src="https://images.unsplash.com/photo-1610716632318-acfc6a85d1ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="" width="1310" height="873">
+        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+      </figure> -->
       <p><strong class="text-yellow-200 underline underline-offset-4 decoration-2 decoration-wavy decoration-yellow-200">The Moonlight Grant</strong> is for you — the hungry creative.</p>
     </div>
 
@@ -42,7 +54,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'LandingSectionIntro',
+  name: 'AboutUsSectionIntro',
 })
 </script>
 
