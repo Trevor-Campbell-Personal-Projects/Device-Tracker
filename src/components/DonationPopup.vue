@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <button @click="open = true" class="group inline-flex items-center px-5 py-3 border font-medium rounded-md bg-gradient-to-tr from-slate-400 to-slate-100 text-slate-900 bg-gray-600 shadow-lg shadow-slate-400/50 hover:bg-gray-700 hover:from-yellow-400 hover:to-yellow-100 hover:shadow-yellow-400/50 selection:text-yellow-700">
+  <button class="group inline-flex items-center px-5 py-3 border font-medium rounded-md bg-gradient-to-tr from-slate-400 to-slate-100 text-slate-900 bg-gray-600 shadow-lg shadow-slate-400/50 hover:bg-gray-700 hover:from-yellow-400 hover:to-yellow-100 hover:shadow-yellow-400/50 selection:text-yellow-700" @click="open = true">
     Donate to Moonlight Fund
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 stroke-2 group-hover:translate-x-1.5 group-hover:-translate-y-1 transition-transform duration-200 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path d="M13.4556 6.85504C14.9314 5.50111 16.8613 4.74994 18.864 4.74994L19.2501 4.74994V5.13607C19.2501 7.1388 18.4989 9.0687 17.145 10.5444L10.9948 17.2478L6.7522 13.0052L13.4556 6.85504Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
