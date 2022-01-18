@@ -3,14 +3,14 @@
   <footer class="mb-12 selection:bg-yellow-200/20 selection:text-yellow-300">
     <div class="max-w-7xl mx-auto px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-        <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
-          <a :href="item.href" class="text-base text-gray-500 hover:text-yellow-200 cursor-pointer">
+        <div v-for="item in navigation.main" :key="item.name" class="px-5 py-3">
+          <a :href="item.href" class="text-base text-gray-500 hover:text-yellow-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200 focus:rounded-sm">
             {{ item.name }}
           </a>
         </div>
       </nav>
       <div class="mt-8 flex justify-center space-x-6">
-        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200 focus:rounded-sm">
           <span class="sr-only">{{ item.name }}</span>
           <component :is="item.icon" class="h-6 w-6 hover:fill-yellow-200" aria-hidden="true" />
         </a>
@@ -52,7 +52,6 @@ const navigation = {
 export default defineComponent({
   name: 'MainFooter',
   components:{
-
   },
   setup() {
     return {

@@ -4,9 +4,9 @@
       <div class="flex items-center flex-1">
         <div class="flex items-center justify-between w-full md:w-auto">
           <a class="block">
-            <router-link to="/" >
+            <router-link to="/">
               <MoonlightLogo class="absolute h-10 w-auto sm:h-12 text-yellow-400"></MoonlightLogo>
-              <p class="ml-14 leading-[2] sm:leading-[2.5] font-bold font-laila text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100">Moonlight Grant</p>
+              <p class="ml-14 leading-[2] sm:leading-[2.5] font-bold font-laila text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200">Moonlight Grant</p>
             </router-link>
           </a>
           <div class="-mr-2 flex items-center md:hidden">
@@ -18,13 +18,13 @@
         </div>
         <div class="hidden md:block md:ml-10 md:space-x-8">
           <a v-for="item in navigation" :key="item.id" class="relative">
-            <router-link class="text-lg font-medium text-slate-100 hover:text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 hover:bg-slate-900 hover:shadow-inner hover:shadow-black/50" active-class="relative text-lg font-medium text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 bg-slate-900 shadow-inner shadow-black/50 ring-4 ring-yellow-200/50" :to="{path:item.router}">{{item.names}}</router-link>
+            <router-link class="text-lg font-medium text-slate-100 hover:text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 hover:bg-slate-900 hover:shadow-inner hover:shadow-black/50 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200" active-class="relative text-lg font-medium text-white px-4 py-2 rounded-md transition-all ease-in-out delay-100 duration-300 bg-slate-900 shadow-inner shadow-black/50 ring-4 ring-yellow-200/50" :to="{path:item.router}">{{item.names}}</router-link>
           </a>
         </div>
       </div>
       <div class="hidden md:block text-right">
         <span class="inline-flex rounded-md shadow-lg shadow-slate-900">
-          <a href="https://tripetto.app/run/K8OSCFZU4C" class="group inline-flex items-center px-4 py-2 border font-medium rounded-md text-slate-900 bg-gradient-to-tr from-slate-400 to-slate-100 shadow-lg shadow-slate-400/50 hover:from-yellow-400 hover:to-yellow-100 hover:shadow-yellow-400/50 selection:text-yellow-700">
+          <a href="https://tripetto.app/run/K8OSCFZU4C" class="group inline-flex items-center px-4 py-2 border font-medium rounded-md text-slate-900 bg-gradient-to-tr from-slate-400 to-slate-100 shadow-lg shadow-slate-400/50 hover:from-yellow-400 hover:to-yellow-100 hover:shadow-yellow-400/50 selection:text-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200">
             Apply Now
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 stroke-2 group-hover:-rotate-12 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200 ease-in-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />

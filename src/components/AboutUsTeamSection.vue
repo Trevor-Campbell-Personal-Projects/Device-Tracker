@@ -18,7 +18,7 @@
                 <p class="text-yellow-200/75">{{ person.role }}</p>
               </div>
               <div class="text-lg">
-                <p class="text-slate-200">{{ person.bio }}</p>
+                <p class="text-slate-200 whitespace-pre-line">{{ person.bio }}</p>
               </div>
               <ul role="list" class="flex space-x-5">
                 <li>
@@ -53,13 +53,13 @@ import { defineComponent } from "vue"
 const people = [
   {
     name: 'Trevor Campbell',
-    role: 'Money Daddy',
+    role: 'Serial Hobby Dabbler',
     imageUrl:
       '/src/assets/images/trevor-moonlight-team-pic.jpg',
     bio:
-      'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-    twitterUrl: '#',
-    linkedinUrl: '#',
+      'In the moonlight, Trevor dabbles with renaissance hobbies like marble sculpting, metalworking, and leather-working. He created the Moonlight Grant to help support artists, innovators, and other creatives around the globe who don\'t have access to the same reources as others. \n\nDuring the day, he can be found playing the role of "Team Jester" at Boston-area digital health startup, Vincere Health.',
+    twitterUrl: 'https://twitter.com/TrevorCampbell_',
+    linkedinUrl: 'https://www.linkedin.com/in/trevordcampbell/',
   },
   // More people...
 ]

@@ -11,7 +11,7 @@
       </p>
     </div>
 
-    <dl class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+    <dl class="mt-10 text-center space-y-6 sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8 sm:space-y-0">
       
       <div class="group flex flex-col bg-black/20 shadow-inner shadow-black rounded-lg py-6 hover:bg-black/40 transition-all ease-in-out duration-300">
         <dt class="order-2 mt-2 text-lg leading-6 font-medium text-slate-300 group-hover:text-white transition-all ease-in-out duration-300">

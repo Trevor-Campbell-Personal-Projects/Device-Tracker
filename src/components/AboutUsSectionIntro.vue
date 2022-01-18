@@ -11,25 +11,13 @@
       <p>It is these folks who push the envelope, exploring the unknown, creating new things, innovating.</p>
       <figure class="w-3/4 mx-auto">
         <img class="rounded-lg" src="https://images.unsplash.com/photo-1612534526511-dd27833d6e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="1310" height="873">
-        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+        <figcaption>Moonlighter building their skills by the darkness of night.</figcaption>
       </figure>
-      <!-- <figure class="w-3/4 mx-auto">
-        <img class="rounded-lg" src="https://images.unsplash.com/photo-1521999693742-4717d76f97cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="" width="1310" height="873">
-        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
-      </figure> -->
-      <!-- <figure class="w-3/4 mx-auto">
-        <img class="rounded-lg" src="https://images.unsplash.com/photo-1518578315474-bc9ce7151ce4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="1310" height="873">
-        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
-      </figure> -->
-      <!-- <figure class="w-3/4 mx-auto">
-        <img class="rounded-lg" src="https://images.unsplash.com/photo-1610716632318-acfc6a85d1ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="" width="1310" height="873">
-        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
-      </figure> -->
-      <p><strong class="text-yellow-200 underline underline-offset-4 decoration-2 decoration-wavy decoration-yellow-200">The Moonlight Grant</strong> is for you — the hungry creative.</p>
+      <p>The Moonlight Grant was created to help level the playing field – to give creatives and innovators access to the resources, tools, and supplies they otherwise wouldn't get on their own. Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook. <strong class="text-yellow-200 underline underline-offset-4 decoration-2 decoration-wavy decoration-yellow-200">Shooting stars across the night sky.</strong></p>
     </div>
 
     <div class="mt-16 text-lg max-w-prose mx-auto text-right">
-      <div class="mr-6 sm:mr-24">
+      <div class="mr-6">
         <svg class="h-16 stroke-slate-300 ml-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 182 44" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
           <path stroke-linejoin="round" d="M24.8 42.5C11.3 41 1 36 1.2 26.9c.4-15.3 15.6-23.3 27-23.7 5.4-.1 9.7 2.4 10.1 5.8.9 7.7-19.2 15.7-19.2 15.7S37 18 43.8 26.9C46.5 30.5 32 37.5 32 37.5s-8.8 3.4-7.7-.2c1.8-5.5 16.8-10.1 18.4-10.3 3.2-.4 7.1-.4 8 .1 1.3.8-1.7 4.1-1 4.9.8.7 3.9-2.6 4-2 .1.6-.6 2.6.6 3 1.2.4 2.3-1.1 4.3-1.5 2-.4 1.8-.4 3.6-.1s2 .6 3.4 1.4c1.4.7 1 2.2 2 1.6 1.1-.6 1.4-4.2 2.4-4 1 0 0 5.3 1.7 4.5 1.6-1 4.7-8 4.7-8s-.8 4 0 3.9c3.1-.4 8.1-2.6 14.5-3.4a26 26 0 0 1 11 .3c1.9.5 2.6 2.3 2.6 2.3" stroke-linecap="round"/>
           <path d="M113.7 15.8s-1.1-2.8-3.6-2.1c-5.8 1.6-16.2 7.6-16.4 15.6-.5 16.3 21 11.1 22.7 11 13.6-1.2 17.3-10 17.3-14.5 0-14.3-19-10.3-21-10-8 .9-10.5 1.5-10.5 1.5"/>

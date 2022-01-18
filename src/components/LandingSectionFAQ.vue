@@ -8,7 +8,7 @@
       <dl class="mt-6 space-y-6 divide-y-2 divide-slate-900">
         <Disclosure v-for="faq in faqs" :key="faq.question" v-slot="{ open }" as="div" class="pt-6">
           <dt class="text-lg">
-            <DisclosureButton class="text-left w-full flex justify-between items-start text-gray-400">
+            <DisclosureButton class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200 focus:rounded-md">
               <span :class="[open ? 'text-xl font-laila font-medium tracking-tight text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100' : 'text-xl font-medium font-laila tracking-tight text-slate-100']">
                 {{ faq.question }}
               </span>

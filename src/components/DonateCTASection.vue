@@ -4,7 +4,7 @@
     <div class="max-w-7xl mx-auto bg-slate-900 lg:bg-transparent lg:px-8">
       <div class="lg:grid lg:grid-cols-12">
         <div class="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
-          <div class="absolute inset-x-0 h-1/2 bg-slate-100 lg:hidden" aria-hidden="true"></div>
+          <div class="absolute inset-x-0 h-1/2 bg-black/75 lg:hidden" aria-hidden="true"></div>
           <div class="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
             <div class="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
               <img class="object-cover object-center rounded-3xl shadow-xl shadow-black" src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80" alt="" />
@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="relative bg-slate-900 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center shadow-inner shadow-black">
+        <div class="relative bg-slate-900 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center lg:shadow-inner lg:shadow-black">
           <div class="relative max-w-md mx-auto py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
             <h2 class="text-sm text-yellow-400/50 font-semibold tracking-wide uppercase lg:text-base">
               Our Shooting Stars Need Your Support

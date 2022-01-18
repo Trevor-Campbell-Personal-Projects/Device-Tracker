@@ -3,7 +3,7 @@
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
       <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
         <div>
-          <a href="https://tripetto.app/run/K8OSCFZU4C" class="inline-flex items-center text-slate-100 bg-slate-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-white shadow-inner shadow-black/50">
+          <a href="https://tripetto.app/run/K8OSCFZU4C" class="inline-flex items-center text-slate-100 bg-slate-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-white shadow-inner shadow-black/50 focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200">
             <span class="px-3 py-0.5 text-slate-900 text-xs font-bold leading-5 uppercase tracking-wide bg-gradient-to-tr from-yellow-400 to-yellow-100 bg-yellow-200 rounded-full">Apply Now!</span>
             <span class="ml-4 text-sm">January 2022<span class="hidden sm:inline"> applications open</span></span>
             <!-- Heroicon name: solid/chevron-right -->
@@ -41,7 +41,10 @@
       <!-- Video Block -->
       <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
         <div class="relative mx-auto w-full rounded-lg shadow-xl shadow-black/30 lg:max-w-md">
-          <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-200">
+          <figure class="relative block w-full">
+            <img class="rounded-lg contrast-125 brightness-110" src="https://images.pexels.com/photos/6614829/pexels-photo-6614829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="1310" height="873">
+          </figure>
+          <!-- <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-black focus:ring-yellow-200">
             <span class="sr-only">Watch our video to learn more</span>
             <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
             <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
@@ -50,7 +53,7 @@
                 <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
               </svg>
             </div>
-          </button>
+          </button> -->
         </div>
       </div>
       
