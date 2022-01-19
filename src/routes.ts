@@ -17,6 +17,6 @@ export default [
   {
     component: () => import('@/pages/404Page.vue'),
     name: '404',
-    path: "/:catchAll(.*)",
-  }
+    path: '/:catchAll(.*)',
+  },
 ]

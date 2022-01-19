@@ -11,8 +11,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'App',
 
-  components: {
-  },
+  components: {},
 
   setup() {
     useHead({
@@ -20,11 +19,11 @@ export default defineComponent({
       meta: [
         {
           name: 'description',
-          content: 'This is a DEFAULT description',
+          content: 'Get up to $1,000 to support your Moonlight Gig',
         },
         {
-          name: 'other-stuff',
-          content: 'This is some OTHER stuff',
+          name: 'image',
+          content: '/images/page-images/moonlight-social-image.png',
         },
       ],
     })
