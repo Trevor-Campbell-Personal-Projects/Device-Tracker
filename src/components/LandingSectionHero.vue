@@ -33,11 +33,11 @@
             class="mt-4 text-4xl font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:font-bold lg:text-5xl xl:text-6xl"
           >
             <span
-              class="md:block inline -mt-1.5 pt-1.5 md:-mb-4 pb-1.5 mr-3 md:mr-0 font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100"
+              class="md:block inline-block -mt-1.5 pt-1.5 md:-mb-4 pb-1.5 mr-3 md:mr-0 font-laila text-transparent bg-clip-text bg-gradient-to-tr from-yellow-400 to-yellow-100"
               >Get up to $1,000</span
             >
             <span
-              class="md:block inline -mt-1.5 pt-1.5 md:-mb-1.5 pb-1.5 text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white"
+              class="md:block inline-block -mt-1.5 pt-1.5 md:-mb-1.5 pb-1.5 text-transparent bg-clip-text bg-gradient-to-t from-slate-400 via-slate-50 to-white"
               >to support your Moonlight Gig</span
             >
           </h1>
