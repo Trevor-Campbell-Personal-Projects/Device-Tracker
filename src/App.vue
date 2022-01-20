@@ -15,43 +15,43 @@ export default defineComponent({
 
   setup() {
     useHead({
-      title: 'Moonlight Grant',
+      title: `Moonlight Grant`,
       meta: [
         {
-          name: 'description',
-          content: 'Get up to $1,000 to support your Moonlight Gig',
+          name: `description`,
+          content: `Get up to $1,000 to support your Moonlight Gig`,
         },
         {
-          name: 'image',
-          content: '/images/page-images/moonlight-social-image.png',
+          name: `image`,
+          content: `/images/page-images/moonlight-social-image.png`,
         },
         {
-          name: 'og:title',
-          content: 'Moonlight Grant',
+          name: `og:title`,
+          content: `Moonlight Grant`,
         },
         {
-          name: 'og:description',
-          content: 'Get up to $1,000 to support your Moonlight Gig',
+          name: `og:description`,
+          content: `Get up to $1,000 to support your Moonlight Gig`,
         },
         {
-          name: 'og:image',
-          content: '/images/page-images/moonlight-social-image.png',
+          name: `og:image`,
+          content: `/images/page-images/moonlight-social-image.png`,
         },
         {
-          name: 'twitter:title',
-          content: 'Moonlight Grant',
+          name: `twitter:title`,
+          content: `Moonlight Grant`,
         },
         {
-          name: 'twitter:description',
-          content: 'Get up to $1,000 to support your Moonlight Gig',
+          name: `twitter:description`,
+          content: `Get up to $1,000 to support your Moonlight Gig`,
         },
         {
-          name: 'twitter:image',
-          content: '/images/page-images/moonlight-social-image.png',
+          name: `twitter:image`,
+          content: `/images/page-images/moonlight-social-image.png`,
         },
         {
-          name: 'twitter:card',
-          content: 'summary_large_image',
+          name: `twitter:card`,
+          content: `summary_large_image`,
         },
       ],
     })
