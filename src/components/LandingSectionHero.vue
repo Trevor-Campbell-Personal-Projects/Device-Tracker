@@ -117,9 +117,9 @@ export default defineComponent({
 </script>
 
 <style>
-/* None, since using Tailwindcss */
+/* Fixing iOS mobile device issue of incorrect gradient text when multi-line */
 .gradient-text {
   box-decoration-break: initial;
   -webkit-box-decoration-break: clone;
-} 
+}
 </style>
