@@ -55,6 +55,18 @@ export default defineComponent({
           content: '/images/page-images/moonlight-social-image.png',
         },
         {
+          name: 'og:title',
+          content: 'Moonlight Grant',
+        },
+        {
+          name: 'og:description',
+          content: 'Get up to $1,000 to support your Moonlight Gig',
+        },
+        {
+          name: 'og:image',
+          content: '/images/page-images/moonlight-social-image.png',
+        },
+        {
           name: 'twitter:title',
           content: 'Moonlight Grant',
         },
