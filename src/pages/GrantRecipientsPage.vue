@@ -1,9 +1,4 @@
 <template>
-  <Head>
-    <meta property="og:title" content="Moonlight Grant | Our Shooting Stars (Head)" />
-    <meta property="og:description" content="Our previous grant recipients" />
-    <meta property="og:image" content="/images/page-images/moonlight-social-image.png" />
-  </Head>
   <div class="relative">
     <div class="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
       <MainHeader></MainHeader>
@@ -21,7 +16,6 @@ export default defineComponent({
   components: {
     MainHeader,
   },
-
   setup() {
     useHead({
       title: 'Moonlight Grant | Our Shooting Stars',

@@ -38,43 +38,46 @@ export default defineComponent({
   },
   setup() {
     useHead({
-      title: `Moonlight Grant | About Us`,
+      title: 'Moonlight Grant | About Us',
       meta: [
         {
-          name: `description`,
-          content: `Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.`,
+          name: 'description',
+          content:
+            'Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.',
         },
         {
-          name: `image`,
-          content: `/images/page-images/moonlight-social-image.png`,
+          name: 'image',
+          content: '/images/page-images/moonlight-social-image.png',
         },
         {
-          name: `og:title`,
-          content: `Moonlight Grant | About Us`,
+          name: 'og:title',
+          content: 'Moonlight Grant | About Us',
         },
         {
-          name: `og:description`,
-          content: `Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.`,
+          name: 'og:description',
+          content:
+            'Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.',
         },
         {
-          name: `og:image`,
-          content: `/images/page-images/moonlight-social-image.png`,
+          name: 'og:image',
+          content: '/images/page-images/moonlight-social-image.png',
         },
         {
-          name: `twitter:title`,
-          content: `Moonlight Grant | About Us`,
+          name: 'twitter:title',
+          content: 'Moonlight Grant | About Us',
         },
         {
-          name: `twitter:description`,
-          content: `Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.`,
+          name: 'twitter:description',
+          content:
+            'Our mission is to uncover and amplify the greatest artists and change-makers of our time from places others overlook.',
         },
         {
-          name: `twitter:image`,
-          content: `/images/page-images/moonlight-social-image.png`,
+          name: 'twitter:image',
+          content: '/images/page-images/moonlight-social-image.png',
         },
         {
-          name: `twitter:card`,
-          content: `summary_large_image`,
+          name: 'twitter:card',
+          content: 'summary_large_image',
         },
       ],
     })
