@@ -11,6 +11,11 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'App',
   components: {},
+  setup() {
+    useHead({
+      title: 'Moonlight Grant',
+    })
+  },
 })
 </script>
 

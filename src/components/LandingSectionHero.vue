@@ -7,8 +7,7 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'StarterComponent',
-  components: {
-  },
+  components: {},
 })
 </script>
 
