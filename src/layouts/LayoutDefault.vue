@@ -188,10 +188,10 @@
                   class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                 >
                   <MenuItem v-for="item in userNavigation" :key="item.name" v-slot="{ active }">
-                    <a
-                      :href="item.href"
+                    <router-link
+                      :to="item.router"
                       :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']"
-                      >{{ item.name }}</a
+                      >{{ item.name }}</router-link
                     >
                   </MenuItem>
                 </MenuItems>
@@ -231,33 +231,18 @@ import {
   TransitionChild,
   TransitionRoot,
 } from '@headlessui/vue'
-import {
-  BellIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  FolderIcon,
-  HomeIcon,
-  InboxIcon,
-  MenuAlt2Icon,
-  UsersIcon,
-  XIcon,
-} from '@heroicons/vue/outline'
+import { BellIcon, HomeIcon, MenuAlt2Icon, CubeIcon, XIcon } from '@heroicons/vue/outline'
 import { SearchIcon } from '@heroicons/vue/solid'
 
 import { defineComponent } from 'vue'
 
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-  { name: 'Team', href: '#', icon: UsersIcon, current: false },
-  { name: 'Projects', href: '#', icon: FolderIcon, current: false },
-  { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
-  { name: 'Documents', href: '#', icon: InboxIcon, current: false },
-  { name: 'Reports', href: '#', icon: ChartBarIcon, current: false },
+  { name: 'Devices', href: '#', icon: CubeIcon, current: false },
 ]
 const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', href: '#' },
+  { name: 'My Profile', router: '/profile' },
+  { name: 'Sign Out', router: '/logout' },
 ]
 
 export default defineComponent({

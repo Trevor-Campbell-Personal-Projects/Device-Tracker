@@ -13,7 +13,7 @@ export default defineComponent({
   components: {},
   setup() {
     useHead({
-      title: 'Moonlight Grant',
+      title: 'Device Tracker',
     })
   },
 })

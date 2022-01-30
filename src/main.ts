@@ -8,9 +8,19 @@ import { store } from './store'
 
 import './index.css'
 
+// Middleware to check for authentication before viewing pages
+import useAuthUser from './composables/UseAuthUser'
+
 const router = createRouter({
   history: createWebHistory(),
   routes,
+})
+
+router.beforeEach((to) => {
+  const { isLoggedIn } = useAuthUser()
+  if (!isLoggedIn() && to.meta.requiresAuth && !Object.keys(to.query).includes('fromEmail')) {
+    return { name: 'login' }
+  }
 })
 
 const head = createHead()
